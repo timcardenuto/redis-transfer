@@ -5,9 +5,11 @@ Python scripts that allow you to transfer files and directories between the send
 #### Usage
 
 On receive side
+
     ./redis-receiver.py <redis_server_IP> <redis_server_port>
 
 On sending side
+
     ./redis-sender.py <redis_server_IP> <redis_server_port> <transfer_chunk_byte_size> <directory_or_files>
 
 
